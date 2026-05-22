@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "default": "zamorin-projects-pvt-ltd"
+  },
+  "targets": {
+    "zamorin-projects-pvt-ltd": {
+      "hosting": {
+        "zamorin-works": ["zamorin-works"]
+      }
+    }
+  }
+}
