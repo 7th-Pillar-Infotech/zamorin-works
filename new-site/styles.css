@@ -496,6 +496,6 @@ h1, h2, h3, h4 { font-family: var(--display); font-weight: 600; letter-spacing: 
 /* mobile menu */
 .mmenu { display: none; }
 .mmenu.open { display: block; position: fixed; inset: 76px 0 0; z-index: 99; background: var(--cream); padding: 24px 22px; }
-.mmenu a { display: block; font-family: var(--display); font-weight: 600; font-size: 30px; padding: 14px 0; border-bottom: 1px solid var(--line); }
-.mmenu a.is-active { color: var(--lime-deep); }
-.mmenu .btn { margin-top: 24px; width: 100%; justify-content: center; }
+.mmenu a:not(.btn) { display: block; font-family: var(--display); font-weight: 600; font-size: 30px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.mmenu a:not(.btn).is-active { color: var(--lime-deep); }
+.mmenu .btn { display: inline-flex; margin-top: 28px; width: 100%; justify-content: center; font-family: var(--body); font-size: 16px; padding: 16px 24px; border-bottom: none; }
