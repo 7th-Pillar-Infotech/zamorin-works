@@ -1,14 +1,12 @@
 {
   "hosting": {
     "site": "zamorin-works",
-    "public": ".",
+    "public": "new-site",
     "ignore": [
       "firebase.json",
       ".firebaserc",
       "firebase-debug.log",
       "**/.*",
-      "design-system/**",
-      "_broadsheet.html",
       "node_modules/**"
     ],
     "cleanUrls": true,
